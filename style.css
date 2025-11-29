@@ -6,5 +6,19 @@ body{
 .nome{
     color: rgb(53, 53, 90);
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 1.2em
+    font-size: 1.2em;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
 }
